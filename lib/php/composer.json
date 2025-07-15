@@ -1,0 +1,14 @@
+{
+  "require": {
+    "php": ">=8.3",
+    "wp-hooks/generator": "dev-trunk"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+      {
+          "type": "vcs",
+          "url": "https://github.com/iamdharmesh/wp-hooks-generator"
+      }
+  ]
+}
