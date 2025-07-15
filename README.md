@@ -54,7 +54,7 @@ The tool uses a single configuration file (`wp-hooks-doc.json`) to control all a
   "outputDir": "./wp-hooks-docs",
   "templatesDir": "./.wp-hooks-docs/template",
   "footerStyle": "dark",
-  "footerCopyright: `Copyright © 2025. Built with WP Hooks Documentor.`,
+  "footerCopyright": "Copyright © 2025. Built with WP Hooks Documentor."
 }
 ```
 
