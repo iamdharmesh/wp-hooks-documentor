@@ -1,0 +1,20 @@
+export declare const MESSAGES: {
+    PHP_NOT_FOUND: string;
+    PHP_VERSION_ERROR: (version: string) => string;
+    PHP_VERSION_VALID: string;
+    ERROR_PHP_VERSION_CHECK: string;
+    ERROR_PHP_VERSION_REQUIREMENT: string;
+    HOOKS_GENERATED: string;
+    COLLECTING_HOOKS: string;
+    PROCESSING_HOOKS: string;
+    SAVING_HOOKS: string;
+    ERROR_PLUGIN_PATH: string;
+    ERROR_OUTPUT_PATH: string;
+    ERROR_GENERATE_HOOKS: string;
+    ERROR_PROCESS_HOOKS: string;
+    READING_HOOKS: string;
+    GENERATING_DOCS: string;
+    DOCS_GENERATED: string;
+    ERROR_INPUT_FILE: string;
+    ERROR_GENERATE_DOCS: string;
+};

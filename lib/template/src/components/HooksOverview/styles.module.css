@@ -1,0 +1,80 @@
+.hookTypes {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 4rem 0;
+  /* background-color: var(--ifm-color-emphasis-100); */
+}
+
+.hookTypeCard {
+  height: 100%;
+  padding: 2rem;
+  background: var(--ifm-color-white);
+  border-radius: var(--ifm-card-border-radius);
+  box-shadow: var(--ifm-global-shadow-lw);
+  transition: all 0.3s ease;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.hookTypeCard:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--ifm-global-shadow-md);
+}
+
+.hookTypeHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.hookTypeIcon {
+  width: 24px;
+  height: 24px;
+  color: var(--ifm-color-primary);
+}
+
+.hookTypeContent {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.hookTypeContent p {
+  margin-bottom: 1rem;
+}
+
+.hookTypeList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hookTypeList li {
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  color: var(--ifm-color-success-darker);
+}
+
+@media screen and (max-width: 996px) {
+  .hookTypes {
+    padding: 2rem;
+  }
+
+  .hookTypeCard {
+    margin-bottom: 2rem;
+  }
+}
+
+[data-theme='dark'] {
+  .hookTypeCard {
+    background: var(--ifm-card-background-color);
+  }
+
+  .codeExample {
+    background: var(--ifm-background-color);
+  }
+
+  .hookTypeList li {
+    color: var(--ifm-color-success-light);
+  }
+} 
